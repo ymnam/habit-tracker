@@ -61,10 +61,8 @@ class App extends Component {
           onDecrement={this.handleDecrement}
           onDelete={this.handleDelete}
           onAdd={this.handleAdd}
+          onReset={this.handleReset}
         />
-        <button className="habits-reset" onClick={this.handleReset}>
-          Reset All
-        </button>
       </>
     );
   }
